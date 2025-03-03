@@ -11,7 +11,7 @@ export const Profile = () => {
       }}
     >
       <button onClick={() => setVisible(true)}>
-        <img src="../../../../public/assets/public api/Add User.svg" alt="" />
+        <img src="/public/assets/public api/Add User.svg" alt="" />
         <Popup
           visible={visible}
           onMaskClick={() => setVisible(false)}

@@ -12,7 +12,7 @@ export const MoreButton = () => {
         Ещё
       </button>
       <img
-        src="../../../public/assets/public api/more.svg"
+        src="/public/assets/public api/more.svg"
         alt=""
         style={{
           height: "50",

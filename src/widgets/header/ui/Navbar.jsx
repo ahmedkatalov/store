@@ -26,14 +26,14 @@ export const Navbar = () => {
         <button>Пожертвования</button>
         <Link to="/cart">
           <img
-            src="../../../../public/assets/public api/Buy.svg"
+            src="/public/assets/public api/Buy.svg"
             alt="cart"
             height={35}
             width={35}
           />
         </Link>
         <img
-          src="../../../../public/assets/public api/User.svg"
+          src="/public/assets/public api/User.svg"
           alt="profile"
           height={35}
           width={35}
@@ -42,7 +42,7 @@ export const Navbar = () => {
       </div>
       <button className="burger-button" onClick={() => setIsOpen(!isOpen)}>
         <img
-          src="../../../../public/assets/public api/menu (1).png"
+          src="/public/assets/public api/menu (1).png"
           alt=""
           height={40}
           width={40}
