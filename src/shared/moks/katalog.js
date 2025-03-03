@@ -1,19 +1,19 @@
 export const katalog = [
   {
     id: 1,
-    img: "src/shared/assets/public api/feedingTrough.png",
+    img: "../../../public/assets/public api/feedingTrough.png",
     name: "Кормушки",
     descriptions: "1",
   },
   {
     id: 2,
-    img: "src/shared/assets/public api/mix.png",
+    img: "../../../public/assets/public api/feedingTrough.png",
     name: "Готовые миксы",
     descriptions: "(смеси кормов)",
   },
   {
     id: 3,
-    img: "src/shared/assets/public api/birdEat.png",
+    img: "../../../public/assets/public api/feedingTrough.png",
     name: "Отдельные виды кормов",
     descriptions: "(зерен)",
   },

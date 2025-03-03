@@ -1,7 +1,7 @@
 export const productCart = [
   {
     id: 1,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     detail:
@@ -20,7 +20,7 @@ export const productCart = [
   },
   {
     id: 2,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -37,7 +37,7 @@ export const productCart = [
   },
   {
     id: 3,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -54,7 +54,7 @@ export const productCart = [
   },
   {
     id: 4,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -71,7 +71,7 @@ export const productCart = [
   },
   {
     id: 5,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -88,7 +88,7 @@ export const productCart = [
   },
   {
     id: 6,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -105,7 +105,7 @@ export const productCart = [
   },
   {
     id: 7,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",
@@ -122,7 +122,7 @@ export const productCart = [
   },
   {
     id: 8,
-    img: "src/shared/assets/public api/bird.png",
+    img: "../../../public/assets/public api/bird.png",
     name: "PADOVAN OVOMIX GOLD ROSSO",
     description: "Корм для птиц",
     price: "1000 руб.",

@@ -1,7 +1,7 @@
 export const eat = [
   {
     id: 1,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -18,7 +18,7 @@ export const eat = [
   },
   {
     id: 2,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -35,7 +35,7 @@ export const eat = [
   },
   {
     id: 3,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -52,7 +52,7 @@ export const eat = [
   },
   {
     id: 4,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -69,7 +69,7 @@ export const eat = [
   },
   {
     id: 5,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -86,7 +86,7 @@ export const eat = [
   },
   {
     id: 6,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -103,7 +103,7 @@ export const eat = [
   },
   {
     id: 7,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",
@@ -120,7 +120,7 @@ export const eat = [
   },
   {
     id: 8,
-    img: "src/shared/assets/public api/birdEat2.png",
+    img: "../../../public/assets/public api/birdEat2.png",
     name: "Корм для птиц RIO Линька",
     descriptions: "для волнистых попугайчиков",
     price: "1000 руб.",

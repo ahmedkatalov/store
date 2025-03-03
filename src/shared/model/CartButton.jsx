@@ -20,7 +20,7 @@ export const CartButton = ({ item }) => {
         }}
       >
         <img
-          src="src/shared/assets/public api/Buy.svg"
+           src="../../../public/assets/public api/Buy.svg"
           alt="cart"
           style={{
             background: "transparent",
