@@ -1,0 +1,41 @@
+{
+  "homepage": "https://ahmedkatalov.github.io/store",
+  "name": "store",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "vercel-build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "format": "prettier --write ."
+},
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.0",
+    "antd": "^5.24.2",
+    "antd-mobile": "^5.38.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.2.0",
+    "redux": "^5.0.1",
+    "rollup": "^4.34.9",
+    "swiper": "^11.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.5.1",
+    "vite": "^6.2.0"
+  }
+}

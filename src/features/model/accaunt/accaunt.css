@@ -1,0 +1,65 @@
+.accaunt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 30vw;
+  font-size: 1.2rem;
+}
+
+.acc-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.accaunt img {
+  width: 220px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.acc-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.address {
+  background-color: #3fcf5e;
+  color: #fff;
+  border-radius: 0.6rem;
+  padding: 1rem 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.acc-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.cart-acc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.buy {
+  border-radius: 0.8rem;
+  padding: 0.9rem 1.8rem;
+  background-color: #3fcf5e;
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+  .acc-mid {
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.9);
+  }
+}

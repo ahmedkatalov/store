@@ -1,0 +1,48 @@
+.auth-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: max-content;
+  min-height: max-content;
+  margin: 5rem auto;
+  padding: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #000;
+  text-align: left;
+}
+
+.auth-card-container input {
+  background-color: #e7e7e7;
+  color: #828282;
+  width: 80%;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid #bdbdbd;
+}
+
+.auth-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signup-button {
+  border: 1px solid;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+}
+
+.signin-button {
+  border: 1px solid;
+  border-radius: 0.6rem;
+  background-color: #3fcf5e;
+  color: #fff;
+  padding: 0.7rem 1.3rem;
+}

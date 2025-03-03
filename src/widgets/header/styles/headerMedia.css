@@ -1,0 +1,75 @@
+@media (max-width: 840px) {
+  .navbar,
+  .actions {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+    height: 100%;
+    background-color: #fff;
+    padding: 2rem 0.5rem;
+    border: 2px solid #3fcf5e;
+    border-radius: 0 1rem;
+    box-shadow: 0 1px 1px 2px #3fcf5e;
+    transition: 0.8s all ease-in-out;
+  }
+
+  .navbar.active {
+    left: 0;
+    z-index: 1000;
+  }
+
+  .actions-bottom .active {
+    position: fixed;
+    left: 0;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .navbar img {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+  }
+
+  .navbar button {
+    transition: 0.5s all ease-in-out;
+  }
+
+  .navbar img,
+  .navbar button:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+
+  .burger-button {
+    display: block !important;
+    position: fixed;
+    right: 0;
+    top: 1.2rem;
+    cursor: grab;
+  }
+
+  .navbar img {
+    display: block !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #logo {
+    transform: scale(0.7);
+  }
+
+  .burger-button {
+    transform: scale(0.7);
+  }
+}

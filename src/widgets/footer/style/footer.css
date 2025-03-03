@@ -1,0 +1,23 @@
+.footer {
+  margin-bottom: 0;
+  background-color: #333333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.left {
+  display: flex;
+  gap: 0.7rem;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

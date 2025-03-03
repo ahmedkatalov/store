@@ -1,0 +1,17 @@
+.katalog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1.5fr));
+  margin: 0 auto;
+  text-align: center;
+  gap: 2rem;
+  transform: scale(0.9);
+}
+
+.description {
+  font-size: 0.7rem;
+  color: #828282;
+}
+
+ul:nth-child(1) .description {
+  opacity: 0;
+}

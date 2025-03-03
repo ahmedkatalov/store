@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .cart-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cart-card-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .counter-container {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .cart-card-mid :nth-child(1),
+  .cart-card-mid :nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .remove {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .counter-mid {
+    font-size: 1rem;
+  }
+
+  .counter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-card img {
+  }
+
+  .cart-card-mid :nth-child(1),
+  .cart-card-mid :nth-child(2) {
+    font-size: 0.9rem;
+  }
+
+  .counter-mid {
+    font-size: 0.9rem;
+  }
+
+  .counter {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+}

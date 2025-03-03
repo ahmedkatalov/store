@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-items: center !important;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .card {
+    transform: scale(0.8);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .katalog-container {
+    transform: scale(1) !important;
+  }
+}
