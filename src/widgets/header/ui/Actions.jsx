@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import { Profile } from "../model/Profile";
+import vorobey from "../../../../public/assets/public api/bird.png"
 export const Actions = () => {
   return (
     <div className="actions">
       <img
-        src="/public/shared/vorobey.png"
+        src={vorobey}
         alt="phone"
         id="phone"
       />
