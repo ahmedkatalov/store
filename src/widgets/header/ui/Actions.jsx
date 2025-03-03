@@ -4,7 +4,7 @@ export const Actions = () => {
   return (
     <div className="actions">
       <img
-        src="../../../../public/assets/public api/phone.png"
+        src="/public/shared/vorobey.png"
         alt="phone"
         id="phone"
       />
